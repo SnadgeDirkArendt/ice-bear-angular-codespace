@@ -16,7 +16,7 @@
 		"terminal.integrated.defaultProfile.linux": "bash",
 		"extensions.ignoreRecommendations": true,
 		"gitlens.showWelcomeOnInstall": false,
-		"gitlens.showWhatsNewAfterUpgrades": false,
+		"gitlens.showWhatsNewAfterUpgrades": false
 	},
 	"extensions": [
 	  "angular.ng-template",
