@@ -1,7 +1,7 @@
 FROM baseImage as stage
 
-RUN su node -c "npm install axios"
-RUN su node -c "npm install -g @angular/cli@14.1.3"
+RUN npm install axios
+RUN npm install -g @angular/cli
 
 RUN apt-get update && \
     apt-get -y install --no-install-recommends \

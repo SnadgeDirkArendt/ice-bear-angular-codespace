@@ -6,17 +6,29 @@
 		"VARIANT": "16-bullseye"
 	  }
 	},
-	"settings": {},
+	"settings": {
+		"terminal.integrated.profiles.linux": {
+			"bash": {
+				"path": "bash",
+				"icon": "terminal-bash"
+			}
+		},
+		"terminal.integrated.defaultProfile.linux": "bash",
+		"extensions.ignoreRecommendations": true,
+		"gitlens.showWelcomeOnInstall": false,
+		"gitlens.showWhatsNewAfterUpgrades": false,
+	},
 	"extensions": [
 	  "angular.ng-template",
 	  "dbaeumer.vscode-eslint",
 	  "esbenp.prettier-vscode",
 	  "shardulm94.trailing-spaces",
-	  "firefox-devtools.vscode-firefox-debug"
+	  "firefox-devtools.vscode-firefox-debug",
+	  "redhat.vscode-yaml"
 	],
-	"forwardPorts": [ 4200 ],
+	"forwardPorts": [ 4200, 3000 ],
 	"postCreateCommand": "npm install",
-	"remoteUser": "node"
+	"remoteUser": "root"
   }
 
 // For format details, see https://aka.ms/devcontainer.json. For config options, see the
