@@ -16,5 +16,5 @@ RUN apt-get update && \
         libxtst6 \
         xauth \
         xvfb
-# Cypress
+
 RUN su node -c "npm install -g cypress"
